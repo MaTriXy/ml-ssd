@@ -17,13 +17,31 @@ Ruixiang Zhang\*, Richard He Bai\*, Huangjie Zheng\*, Navdeep Jaitly, Ronan Coll
   <img src="figures/fig_teaser.png" width="100%" alt="SSD Overview">
 </p>
 
-This repo is for paper reproduction for improving code generation in three steps: (1) **Sample** solutions from the frozen model at non-unit temperature, (2) **Fine-tune** on those raw, unverified outputs via standard cross-entropy, and (3) **Decode** at a separately tuned temperature. No rewards, no verifier, no teacher, no RL. See the [paper](https://arxiv.org/abs/2604.01193) for full details.
+## ✨ Overview
 
+This repository reproduces the method from the paper:
 
+> **Embarrassingly Simple Self-Distillation Improves Code Generation**
 
-## News
-* 04/03/2026 Model checkpoints will be released on HF shortly. 
+The approach consists of three simple steps:
 
+1. **Sample** solutions from a frozen model at non-unit temperature  
+2. **Fine-tune** on raw, unverified outputs using standard cross-entropy  
+3. **Decode** with a separately tuned temperature  
+
+**No rewards · No verifier · No teacher · No RL**
+
+For full details, see the [paper](https://arxiv.org/abs/2604.01193).
+
+---
+
+## 📰 News
+
+- **[2026-04-03]** 🚀 Initial release of repository  
+- **[2026-04-03]** 🤗 Model checkpoints coming soon on Hugging Face  
+- *(More updates will be added here)*
+
+---
 
 ## 🚀 Getting Started
 
