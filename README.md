@@ -40,6 +40,7 @@ For full details, see the [paper](https://arxiv.org/abs/2604.01193).
 - **[2026-04-03]** 🚀 Initial release of repository  
 - **[2026-04-03]** 🤗 Model checkpoints coming soon on Hugging Face
 - **[2026-04-07]** 🤗 Model checkpoints released
+- **[2026-04-22]** Target date for data generation pipeline to be released
 - *(More updates will be added here)*
 
 ---
